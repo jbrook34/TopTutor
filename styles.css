@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+body, .btn, .form-control {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand, .nav-link {
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+}
+
 body::before {
 	content: '';
 	display: block;
