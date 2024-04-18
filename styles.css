@@ -1,0 +1,53 @@
+body::before {
+	content: '';
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50%;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, transparent 100%);
+	z-index: -1;
+}
+
+body {
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+.profile-pic {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.nav-link {
+	color: #333;
+}
+
+	.nav-link:hover {
+		color: #555;
+	}
+
+.nav-tabs .nav-link.active {
+	color: #333; 
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-dark .nav-link {
+	color: #333;
+}
+
+	.navbar-dark .nav-link:hover {
+		color: #555;
+	}
+
+.navbar-dark .nav-tabs .nav-link.active {
+	color: #333;
+	background-color: transparent;
+	border-color: transparent;
+}
